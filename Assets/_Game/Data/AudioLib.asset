@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f20f1cdc802893488ab29c6e4fda3d2, type: 3}
+  m_Name: AudioLib
+  m_EditorClassIdentifier: 
+  m_AudioList:
+  - m_AudioName: Pistol Shot
+    m_AudioClips:
+    - {fileID: 8300000, guid: 07d2116070fdc934b823da445b071798, type: 3}
+    m_Volume: 0.045
+    m_MinPitch: 0.9
+    m_MaxPitch: 1.1
+    m_TimeBetweenPlayedAudio: 0
+  - m_AudioName: Machine Gun Shot
+    m_AudioClips:
+    - {fileID: 8300000, guid: 3ebe8d698c8229d4cb8502b7fab378e1, type: 3}
+    - {fileID: 8300000, guid: 474c6f76c822ef7459986dd55db460d0, type: 3}
+    m_Volume: 0.045
+    m_MinPitch: 0.9
+    m_MaxPitch: 1.1
+    m_TimeBetweenPlayedAudio: 0
+  - m_AudioName: Shotgun Shot
+    m_AudioClips:
+    - {fileID: 8300000, guid: 71a6c57be01444b48a8ad170f6e533ca, type: 3}
+    - {fileID: 8300000, guid: 14fc38be200662347a9c7a6e9fa9922b, type: 3}
+    m_Volume: 0.045
+    m_MinPitch: 0.9
+    m_MaxPitch: 1.1
+    m_TimeBetweenPlayedAudio: 0
+  - m_AudioName: Taunt
+    m_AudioClips:
+    - {fileID: 8300000, guid: fad0478de25846245b04391d2cfc6af8, type: 3}
+    - {fileID: 8300000, guid: 11136933f6142714d9b64d2519c3ae96, type: 3}
+    - {fileID: 8300000, guid: 759300c3369f54142bca651a41a31478, type: 3}
+    m_Volume: 0.4
+    m_MinPitch: 0.9
+    m_MaxPitch: 1.1
+    m_TimeBetweenPlayedAudio: 0
+  - m_AudioName: Drink
+    m_AudioClips:
+    - {fileID: 8300000, guid: 82e4dfbc1edfedc43aa68cdb07ba2a1a, type: 3}
+    m_Volume: 0.4
+    m_MinPitch: 0.9
+    m_MaxPitch: 1.1
+    m_TimeBetweenPlayedAudio: 0
+  - m_AudioName: Player Hit
+    m_AudioClips:
+    - {fileID: 8300000, guid: 989db4477912df8459f21172a49cb026, type: 3}
+    - {fileID: 8300000, guid: 7f7cd3e6c3f0ffa4283217d9b2f9a963, type: 3}
+    - {fileID: 8300000, guid: 72008aa9807c429479389fd3cdc25243, type: 3}
+    m_Volume: 0.2
+    m_MinPitch: 1
+    m_MaxPitch: 1.1
+    m_TimeBetweenPlayedAudio: 2.5
+  - m_AudioName: Player Death
+    m_AudioClips:
+    - {fileID: 8300000, guid: 92af2937fa30f9c4eb94c4f965ee6397, type: 3}
+    m_Volume: 0.2
+    m_MinPitch: 0.9
+    m_MaxPitch: 1.1
+    m_TimeBetweenPlayedAudio: 0
+  - m_AudioName: Taunt Music
+    m_AudioClips:
+    - {fileID: 8300000, guid: 5b779da4c60e7b74abb418c2dd6e838b, type: 3}
+    m_Volume: 1
+    m_MinPitch: 1.1
+    m_MaxPitch: 1.5
+    m_TimeBetweenPlayedAudio: 0
+  - m_AudioName: Dry Fire
+    m_AudioClips:
+    - {fileID: 8300000, guid: 085774ea3872cf34abcc013462cd04e6, type: 3}
+    m_Volume: 1
+    m_MinPitch: 1.1
+    m_MaxPitch: 1.5
+    m_TimeBetweenPlayedAudio: 0
+  - m_AudioName: Music
+    m_AudioClips:
+    - {fileID: 8300000, guid: 52a32c2b95428654682fd627dfdc0409, type: 3}
+    m_Volume: 1
+    m_MinPitch: 1
+    m_MaxPitch: 1
+    m_TimeBetweenPlayedAudio: 0

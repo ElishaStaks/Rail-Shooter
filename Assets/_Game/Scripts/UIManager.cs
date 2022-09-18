@@ -42,10 +42,7 @@ public class UIManager
 
     [Space]
 
-    [Header("UI Buttons")]
-
-    [SerializeField] 
-    private Button m_BackButton;
+    [Header("UI Buttons")] 
 
     [SerializeField]
     private Button m_RestartButton;
@@ -100,9 +97,6 @@ public class UIManager
             Cursor.visible = false;
             m_Crosshair.gameObject.SetActive(true);
         }
-
-        if (m_BackButton != null)
-            m_BackButton.onClick.AddListener(GoToTitleScene);
 
         if (m_RestartButton != null)
             m_RestartButton.onClick.AddListener(RestartScene);

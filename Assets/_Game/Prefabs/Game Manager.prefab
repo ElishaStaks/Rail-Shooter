@@ -3108,7 +3108,7 @@ MonoBehaviour:
   m_UIManager:
     m_DamageUI:
       m_BloodScreenFader:
-        m_Image: {fileID: 0}
+        m_Image: {fileID: 6289623761625634507}
         m_MinAlpha: 0.4
         m_FadeInSpeed: 25
         m_FadeOutSpeed: 0.3
@@ -3124,12 +3124,11 @@ MonoBehaviour:
     m_WeaponIcon: {fileID: 0}
     m_AmmoText: {fileID: 0}
     m_ReloadWarning: {fileID: 0}
-    m_Crosshair: {fileID: 0}
-    m_TimerText: {fileID: 0}
-    m_BackButton: {fileID: 0}
+    m_Crosshair: {fileID: 6289623762382467449}
+    m_TimerText: {fileID: 6289623761280420067}
     m_RestartButton: {fileID: 6289623761771888000}
-    m_TitleSceneName: 
-    m_MainScene: 
+    m_TitleSceneName: TitleScreen
+    m_MainScene: House
     m_EnemiesKilled: {fileID: 6289623760802118121}
     m_ShotsFired: {fileID: 6289623762015650483}
     m_EnemiesHit: {fileID: 6289623761035386811}

@@ -7,10 +7,13 @@ using UnityEngine.SceneManagement;
 public class TitleMenuManager : MonoBehaviour
 {
     [SerializeField] 
-    private GameObject m_OptionPanel;
+    private string m_GameplayScene;
+
+    [SerializeField]
+    private GameObject m_TitlePanel;
 
     [SerializeField] 
-    private string m_GameplayScene;
+    private GameObject m_OptionPanel;
 
     [SerializeField]
     private Button m_StartButton;
@@ -27,6 +30,7 @@ public class TitleMenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        m_TitlePanel.SetActive(true);
         m_OptionPanel.SetActive(false);
         m_StartButton.Select();
 
@@ -48,11 +52,13 @@ public class TitleMenuManager : MonoBehaviour
     {
         m_OptionCloseButton.Select();
         m_OptionPanel.SetActive(true);
+        m_TitlePanel.SetActive(false);
     }
 
     void CloseOptionPanel()
     {
         m_OptionPanel.SetActive(false);
+        m_TitlePanel.SetActive(true);
         m_OptionButton.Select();
     }
 

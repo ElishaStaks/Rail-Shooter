@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eedd379e35d3b8940a4e263a1019cf25, type: 3}
-  m_Name: NailGun
+  m_Name: Pistol
   m_EditorClassIdentifier: 
   m_FireType: 0
+  m_AmmoType: 0
   m_Rate: 0.15
   m_MaxAmmo: 15
   m_DamageInflict: 2
   m_IsDefault: 1
-  m_MuzzleFX: {fileID: 1743301284569550, guid: 876e001a12fe1d749951ee62cb893945, type: 3}
+  m_MuzzleFX: {fileID: 7763588260420942738, guid: 557a0f19f0e506c44a9a12f3cca2b5eb, type: 3}
   m_GunShotSfx:
     id: 0
   m_DryFireSfx:
     id: 8
   m_FxScale: 0.03
-  m_WeaponIcon: {fileID: -2456897191603583936, guid: 868b9b5f99c516e45ad369e9addc55b5,
-    type: 3}
+  m_WeaponIcon: {fileID: -2456897191603583936, guid: 868b9b5f99c516e45ad369e9addc55b5, type: 3}

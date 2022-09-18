@@ -18,7 +18,7 @@ MonoBehaviour:
   m_MaxAmmo: 5
   m_DamageInflict: 4
   m_IsDefault: 0
-  m_MuzzleFX: {fileID: 1743301284569550, guid: 876e001a12fe1d749951ee62cb893945, type: 3}
+  m_MuzzleFX: {fileID: 7763588260420942738, guid: 557a0f19f0e506c44a9a12f3cca2b5eb, type: 3}
   m_GunShotSfx:
     id: 2
   m_DryFireSfx:

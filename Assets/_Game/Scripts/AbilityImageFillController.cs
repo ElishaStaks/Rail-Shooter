@@ -22,7 +22,7 @@ public class AbilityImageFillController
         }
         else
         {
-            Debug.LogError("No valid player vitals have been referenced!");
+            Debug.LogError("No valid player taunt have been referenced!");
         }
     }
 
